@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 50pt;
+    font-variant: small-caps;
 }
 
 header img {
@@ -34,6 +35,7 @@ header {
 
 header h1 {
     background-color: #261105;
+    background-image: radial-gradient(#753210, black);
     border: 10px groove #AE7718;
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
     padding: 0.3em;
@@ -46,6 +48,7 @@ header img {
 
 #experience {
     background-color: #261105;
+    background-image: radial-gradient(#261105, black);
     border: 10px groove #AE7718;
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
     padding: 0.7em;
@@ -62,6 +65,7 @@ header img {
     font-weight: 600;
     border: 10px groove #261105;
     background-color: #753210;
+    background-image: radial-gradient(#B25A16, #AE7718);
     margin: 0.5em 0em;
 }
 
@@ -97,4 +101,45 @@ header img {
 
 #websites a:active {
     color: #261105;
+}
+
+/* Reviews Section Style */
+
+#reviews {
+    color:#AE7718;
+    background-color: black;
+    border: 10px groove #AE7718;
+    padding: 0.8em;
+}
+
+#reviews h2 {
+    font-size: 50pt;
+    text-align: center;
+    margin: 0.3em;
+    text-shadow: 3px 3px #753210;
+}
+
+#reviews h3 {
+    font-size: 35pt;
+}
+
+.review-box {
+    border: 3px solid #AE7718;
+    border-radius: 20px;
+    padding: 0.8em;
+    background-image: radial-gradient(black, #261105);
+}
+
+.review-header {
+    font-size: 20pt;
+    font-variant: small-caps;
+    line-height: 0.3;
+}
+
+.review-rating {
+    font-size: 40pt;
+}
+
+.review-statement {
+    font-size: 18pt;
 }

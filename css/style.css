@@ -1,0 +1,54 @@
+
+/* General Prep Style */
+
+body {
+    background-color: #261105;
+    font-family: "Josefin Sans";
+    color: #B25A16;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Urbanist";
+}
+
+h1 {
+    font-size: 50pt;
+}
+
+header img {
+    width: 200px;
+}
+
+/* Header and Intro Style */
+
+header {
+    color: #B25A16;
+    font-family: "Josefin Sans";
+    font-size: 20pt;
+    text-align: center;
+    padding: 0.5em;
+    border: 10px groove #AE7718;
+    background-color: #261105;
+    background-image: url(../img/road.jpg);
+}      
+
+header h1 {
+    background-color: #261105;
+    border: 10px groove #AE7718;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    padding: 0.3em;
+}
+
+header img {
+    border: 10px groove #AE7718;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+#experience {
+    background-color: #261105;
+    border: 10px groove #AE7718;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    padding: 0.7em;
+}
+
+

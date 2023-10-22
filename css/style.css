@@ -88,11 +88,11 @@ header img {
 }
 
 #websites a:link {
-    color: #B25A16;
+    color: #B02D05;
 }
 
 #websites a:visited {
-    color: #B02D05;
+    color: #000000;
 }
 
 #websites a:hover {
@@ -100,7 +100,7 @@ header img {
 }
 
 #websites a:active {
-    color: #261105;
+    color: #5e2606;
 }
 
 /* Reviews Section Style */

@@ -51,4 +51,50 @@ header img {
     padding: 0.7em;
 }
 
+/* Website List Styling */
 
+#websites {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    color: #261105;
+    font-size: 20pt;
+    font-weight: 600;
+    border: 10px groove #261105;
+    background-color: #753210;
+    margin: 0.5em 0em;
+}
+
+#websites h2 {
+    font-size: 60pt;
+    font-variant: small-caps;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    margin: 0.3em;
+}
+
+#websites ol li {
+    font-size: 30pt;
+    text-shadow: 2px 2px black;
+    font-variant: small-caps;
+}
+
+#websites ol li::first-letter {
+    font-size: 40pt;
+}
+
+#websites a:link {
+    color: #B25A16;
+}
+
+#websites a:visited {
+    color: #B02D05;
+}
+
+#websites a:hover {
+    color: #AE7718;
+}
+
+#websites a:active {
+    color: #261105;
+}
